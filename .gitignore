@@ -1,0 +1,13 @@
+.idea/
+.DS_Store/
+
+#node_modules
+intentus-nextgen-root/node_modules/
+intentus-nextgen-navbar/node_modules/
+intentus-nextgen-sidebar/node_modules/
+intentus-nextgen-dashboard/node_modules/
+intentus-nextgen-app1/node_modules/
+intentus-nextgen-app2/node_modules/
+
+#env
+intentus-nextgen-root/.env

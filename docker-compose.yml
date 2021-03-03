@@ -1,0 +1,37 @@
+version: "3"
+services:
+  nextgen-root:
+    build: ./intentus-nextgen-root
+    image: nextgen-root:latest
+    ports:
+      - "8000:80"
+  nextgen-navbar:
+    build: ./intentus-nextgen-navbar
+    image: nextgen-navbar:latest
+    ports:
+      - "8001:81"
+  nextgen-sidebar:
+    build: ./intentus-nextgen-sidebar
+    image: nextgen-sidebar:latest
+    ports:
+      - "8002:82"
+  nextgen-dashboard:
+    build: ./intentus-nextgen-dashboard
+    image: nextgen-dashboard:latest
+    ports:
+      - "8003:83"
+  nextgen-app1:
+    build: ./intentus-nextgen-app1
+    image: nextgen-app1:latest
+    ports:
+      - "8004:84"
+  nextgen-app2:
+    build: ./intentus-nextgen-app2
+    image: nextgen-app2:latest
+    ports:
+      - "8005:85"
+  nextgen-app3:
+    build: ./intentus-nextgen-app3
+    image: nextgen-app3:latest
+    ports:
+      - "8006:86"

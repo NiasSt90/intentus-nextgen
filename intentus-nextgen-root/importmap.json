@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+    "@OnestyTech/root-config": "http://localhost:8000/OnestyTech-root-config.js",
+    "@OnestyTech/intentus-nextgen-navbar": "http://localhost:8001/OnestyTech-intentus-nextgen-navbar.js",
+    "@OnestyTech/intentus-nextgen-sidebar": "http://localhost:8002/OnestyTech-intentus-nextgen-sidebar.js",
+    "@OnestyTech/intentus-nextgen-dashboard": "http://localhost:8003/OnestyTech-intentus-nextgen-dashboard.js",
+    "@OnestyTech/intentus-nextgen-app1": "http://localhost:8004/OnestyTech-intentus-nextgen-app1.js",
+    "@OnestyTech/intentus-nextgen-app2": "http://localhost:8005/OnestyTech-intentus-nextgen-app2.js",
+    "@OnestyTech/intentus-nextgen-app3": "http://localhost:8006/OnestyTech-intentus-nextgen-app3.js",
+    "@Barmenia/oa-tier": "https://ssl0.barmenia.de/oa-tier/#/Beitrag",
+    "@Barmenia/oa-rs": "https://ssl0.barmenia.de/oa-rs/#/Beitrag"
+  }
+}
